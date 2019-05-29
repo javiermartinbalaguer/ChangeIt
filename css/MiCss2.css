@@ -1,0 +1,144 @@
+body {
+    background: #e7e7e7;
+}
+
+/*NAVEGADOR*/
+
+/*
+.navbar-default{
+    background: linear-gradient(to right, #1953d6, #2772e4, #2f93e4,#2692e4,#2692e4,#2692e4,#2692e4,#2f93e4,#2772e4,#1953d6);
+    /*background: linear-gradient(to left, #55d6c8, #63d0e4, #3fb5e4, #34b6e4,#2692e4,#2692e4,#2692e4,#2f93e4,#63aee4,#55d6c8);*/
+/*}
+
+.navbar-default .navbar-nav>li>a:hover{
+    /*background: linear-gradient(to right,#253387, #3b7390,#4d98be,#4d98be,#4d98be,#4d98be);*/
+    /*background: linear-gradient(to right, #246be1, #2e82e1, #2f93e4,#2692e4);
+    color: #000000;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+    /*background: linear-gradient(to right,#253387, #3b7390,#4d98be,#4d98be,#4d98be,#4d98be);*/
+    /*background: linear-gradient(to right, #246be1, #2e82e1, #2f93e4,#2692e4);
+}
+
+.dropdown-menu{
+    background: linear-gradient(to right, #246be1, #2e82e1, #2f93e4,#2692e4);
+}
+*/
+.dropdown-menu>li>a{
+    color: white;
+}
+
+.dropdown-menu>li>a:hover{
+    color: #267594;
+    border-radius:none !important;
+}
+
+/*CSS MODALS*/
+
+.bordeModal{
+    border-radius: 10px 10px 10px 10px;
+}
+/*
+.parteSuperior{
+    background: linear-gradient(to right, #b3b8b1, #bcbfbc, #c8c8c3, #c8c8c3, #c8c8c3, #c8c8c3, #b5b8b5, #aaafa8);
+}
+*/
+.parteInferior{
+    background: #e0dfdc;
+}
+
+/*BUSCADORES Y AÑADIR ARTICULOS*/
+#inputAnadirProducto{
+    float: left;
+    border-radius: 50px;
+    margin: 66px 0px 0px 4%;
+    width: 44%;
+    color:#ffffff;
+    background: #5f5f5f;
+    border-color: #7c7c7c;
+}
+
+#inputAnadirServicio{
+    float: right;
+    border-radius: 50px;
+    margin: 66px 4% 0px 0px;
+    width: 44%;
+    color:#ffffff;
+    background: #5f5f5f;
+    border-color: #7c7c7c;
+}
+
+.esferaAnadirProducto {
+    width: 32px;
+    height: 32px;
+    background-color: #90918b;
+    background: #43b05c;
+    -ms-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    margin:-26px 0px 0px -9px;
+}
+
+.esferaAnadirServicio {
+    width: 32px;
+    height: 32px;
+    background-color: #90918b;
+    background: #52abb0;
+    -ms-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    margin:-26px 0px 0px -10px;
+}
+
+
+/*MENU DE ABAJO*/
+#dock li {display:inline-block}
+
+#dock li img {
+    width: 64px;
+    height: 64px;
+    -webkit-box-reflect: below 2px
+    -webkit-gradient(linear, left top, left bottom, from(transparent),
+    color-stop(0.7, transparent), to(rgba(255,255,255,.5))); /* reflection is supported by webkit only */
+    -webkit-transition: all 0.3s;
+    -webkit-transform-origin: 50% 100%;
+}
+#dock li:hover img {
+    -webkit-transform: scale(2);
+    margin: 0 2em;
+}
+
+.stickyfloat_element {
+    z-index: 5;
+    margin-left: 36%;
+    position: absolute;
+    /*-webkit-transition: top 0.8s ease-in-out;
+    transition: top 0.8s ease-in-out;*/
+}
+
+#nav-bar-2{
+/*
+    background: linear-gradient(to left, #6f716f, #909292, #b0b3b7, #bec2bf,#bec2bf,#bec2bf,#bec2bf,#b0b3b7,#909292,#6f716f);
+*/
+}
+
+footer{
+/*
+    background: linear-gradient(to left, #6f716f, #909292, #a9acb0, #b1b5b2,#b1b5b2,#b1b5b2,#b1b5b2,#b0b3b7,#909292,#6f716f);
+*/
+}
+
+
+
+
+
+
+
+
+
+

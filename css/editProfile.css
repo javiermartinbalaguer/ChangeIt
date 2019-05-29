@@ -1,0 +1,26 @@
+#contentEdit{
+    width:90%;
+    margin: 50px auto;
+}
+
+#editBox {
+    padding:20px;
+}
+
+form > .form-group > label{
+    font-weight:normal;
+}
+
+.line{
+    border-right: 1px solid #eeeeee;
+}
+
+a[class="media"]:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.inputFile {
+    width:118px !important;
+    margin: 15px auto 0px;
+}

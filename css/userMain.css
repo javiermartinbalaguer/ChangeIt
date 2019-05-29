@@ -1,0 +1,140 @@
+/*
+body {
+background-color: #8fd2cb !important;
+}
+*/
+.cabecera{
+    width:100%;
+    margin-bottom:15px;
+}
+
+#logo{
+    width:175px;
+    height:100%;
+    background-size: auto 100%;
+    background-image: url(../img/BarterNowNav.png);
+    background-repeat: no-repeat;
+}
+
+#logo:hover{
+    opacity:0.4;
+}
+
+div[class="thumbnail"] img { 
+width: 100%;
+}
+
+/*
+ul[class="dropdown-menu"] li > input{ 
+margin-bottom: 3px;
+}
+
+/* Modificacio Bootstrap */
+/*
+.navbar-brand{
+padding: 5px 15px !important;
+}
+
+.row{
+padding-top:30px;
+}
+.thumbnail{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.buscar{
+border-radius: 30px !important;
+margin-top:10px;
+}
+
+
+*/
+body{
+    padding-top:100px;
+    /*padding-left: 120px; 
+    padding-right: 120px;*/ 
+}
+
+#galeria{
+    width:80%;
+    margin:auto;
+}
+
+.thumbnail{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.colfirst{
+margin-left: 10px;
+}
+
+.buscar{
+    border-radius: 30px;
+    margin-top:60px;
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    padding:8px 15px !important;
+}
+
+a:[class="btn-def"]{
+   color:#aea79f; 
+}
+
+.btn-def{
+    border-color: #aea79f;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    color: #d34615;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+.btn-def:hover{
+    background-color: #aea79f;
+    color: #ffffff;
+}
+
+button, a, input{
+    outline:none !important;
+}
+
+
+footer {
+    position: relative;
+    /* Altura total del footer en px con valor negativo */
+    margin-top: 50px;
+    /* Altura del footer en px. Se han restado los 5px del margen
+    superior mas los 5px del margen inferior
+    */
+    height: 94px;
+    padding:5px 0px;
+    clear: both;
+    background: #aea79f;
+    color: #ffffff;
+    font-family:courier; 
+    text-align:left; 
+    font-size:smaller;
+}
+
+/* Esta clase define la anchura del contenido y la posicion centrada 
+El contenido queda centrado y limitado, pero la cabecera y el pie
+llegan hasta los limites del navegador.
+*/
+.define {
+    width:85%;
+    margin:0 auto;
+}
+
+.imgFoot{
+    width:50px; 
+    float:left;
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+.footerLink{
+    color:white;
+    cursor:pointer;
+}

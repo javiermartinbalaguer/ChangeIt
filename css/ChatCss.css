@@ -1,0 +1,27 @@
+#chat{
+    margin-top:5%;
+    margin-right:5%;
+    margin-bottom:3%;
+    background-color: lightgray;
+    height: 550px;
+    width: 90.5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#textomensaje{
+   /* margin-left:5.4%;*/
+}
+
+#enviarmensaje{
+/*    margin-left:107%;
+    margin-top:-13.3%;*/
+}
+
+#usuarioyo{
+    background-color: #9CED8E;
+}
+
+#usuarioel{
+    background-color: #4FEAF2;
+}
